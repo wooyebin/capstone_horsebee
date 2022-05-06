@@ -12,4 +12,9 @@ __기본설정__
   * sudo dpkg-reconfigure tzdata   
   * sudo service ntp restart   
 
-```sudo apt-get upgrade```
+```sudo apt-get upgrade```   
+```sudo apt-get upgrade python3```   
+```sudo apt-get install python3-pip```   
+* 오류 The following packages have been kept back
+  * sudo apt-get --with-new-pkgs upgrade
+
