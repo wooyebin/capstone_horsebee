@@ -14,6 +14,8 @@
   ```sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 3```   
   ```sudo update-alternatives --config python3```   
   ```python3 -V```   
+  ```sudo rm /usr/bin/python3```   
+  ```sudo ln -s python3.7 /usr/bin/python3```   
    
 * * *
 ### 아키텍처 확인  
